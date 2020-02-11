@@ -1,0 +1,218 @@
+html,body,head{
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400; 
+}
+
+ /* body, html{
+   overflow-x: hidden; 
+}  */
+
+.bg{
+   /* background: url(../img/apple-laptop-notebook-office-39284.jpg) no-repeat center center fixed; */
+   background: url(../img/gray-laptop-computer.jpg) no-repeat center center fixed;
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   /* background-position: center;
+   background-repeat: no-repeat; */
+   background-size: cover;
+
+ 	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    #button {
+        display: inline-block;
+        background-color: #4285f8 ;
+        /* background-color: #FF9800; */
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: background-color .3s, 
+          opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
+      }
+      #button::after {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff; 
+      }
+      
+      #button:hover {
+        cursor: pointer;
+        background-color: #333;
+      }
+      
+      #button:active {
+        background-color: #555;
+      
+      }
+      
+      #button.show {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .footer_contact{
+        
+        /* padding-top: 60px;
+        padding-bottom: 100px; */
+        height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        float: left;
+      }
+      
+      .footer_contact h2{
+        color:white;
+        font-size: 36px;
+        margin-bottom: 40px;
+      }
+      
+      .footer_contact h3{
+        color:#343a40;;
+        font-size: 26px;
+        margin-bottom: 22px;
+      }
+      
+      .footer_contact p{
+        padding-bottom: 10px;
+        color: #343a40;;
+        font-size: 20px;
+      }
+      
+      .footer_contact a{
+        color: #343a40;;
+        font-size: 22px;
+      }
+
+      .steps h2{
+        font-weight: 300;
+        font-size: 2rem;
+        margin-top: 55px;
+        /* font-size: 40px; */
+        /* margin-bottom: 35px; */
+    }
+    .steps p{
+      font-size: 18px;
+    }
+    
+
+    .steps_text{line-height: 27px;
+    font-size: 13px;
+    }
+    .mbtext{
+        margin-bottom: 40px;
+    }
+    .stepblock{
+        width: 340px;
+        height: 470px;
+        background: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+    }
+    .stepblock .step_num{
+        font-size: 200px;
+        position: relative;
+        top: -100px;
+        left: -30px;
+    }
+    .steps_container :hover{
+        background: #d3a900;
+        color: #fff;
+    }
+    .steps_container{
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .stepblock h4{
+        font-size: 14px;
+        margin-left: 40px;
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+    .stepblock h4 span{
+        margin-right: 15px;
+    }
+    
+    .stepblock .step_info{
+        margin-left: 40px;
+        line-height: 29px;
+    }
+    
+    .stepblock .stepinfolast{
+        display: inline-block;
+        margin-left: 70px;
+        margin-top: 20px;
+        border-bottom: 3px solid #000;
+    }
+
+    .mail_decor li a {
+      color: #000;
+      text-decoration: none;
+      /* align-self: center;
+      font-size: 16px;
+      padding: 10px 10px;
+      transition:background .2s linear ; */
+  }
+ 
+  .mail_decor li a:hover{
+      /* background: silver; */
+      /* background: #697a89;
+      border-radius: 3px; */
+      color: #757575;
+  }
+   
+  .mail_decor a:hover{
+    /* background: silver; */
+    /* background: #697a89;
+    border-radius: 3px; */
+    color: #757575;
+}
+  
+.hover_li li :not(:first-child) a:hover{
+ 
+  background: #007bff;
+ 
+}
+
+
+@media (max-width: 991px) {
+    h1{
+    font-size: 32px;
+  } 
+
+  h4{
+    font-size: 20px;
+  }
+}

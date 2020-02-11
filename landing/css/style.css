@@ -1,0 +1,38 @@
+html,body,head{
+  height: 100%;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  
+  h1{
+    font-size: 22px;
+  }
+
+  h5{
+    font-size: 14px;
+  }
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+
+
+.bg{
+ background: url(../img/IMG_20190504_125328.jpg) no-repeat center center fixed;
+ height: 100%;
+ background-size: cover;
+
+}
